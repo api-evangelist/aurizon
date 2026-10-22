@@ -1,23 +1,89 @@
 aid: aurizon
+
 name: Aurizon
-description: 'Aurizon is a company surfaced via the API Evangelist harvest backlog (source: australia-apidays-2026)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Aurizon (Aurizon Holdings Limited, ASX: AZJ, formerly QR National) describes itself as Australia''s largest rail freight operator. Its own site says it moves more than 250 million tonnes of Australian commodities each year to domestic and international markets, across coal, bulk and containerised freight, and it also runs a rail network business. Customers and suppliers use web portals such as FreightOnline and Customer Online. Aurizon does not publish a public developer portal or API documentation.'
+
 url: https://raw.githubusercontent.com/api-evangelist/aurizon/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- Rail Freight
+- Logistics
+- Transportation
+- Mining
+- Australia
+- Supply Chain
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://media.aurizon.com.au/-/media/foundation/aurizon/favicons/favicon-192x192471bfae4.png?rev=b2f9d1814c284c868890c3b45b359948&hash=67F851EB80A6A4CF0D15ACFA7D817D89
+
 common:
+- type: Hosts
+  url: hosts/aurizon-hosts.yml
+- type: GitHubOrganization
+  url: https://github.com/Aurizon
+- type: DomainSecurity
+  url: security/aurizon-domain-security.yml
 - type: Website
   url: https://aurizon.com.au/
+- type: Newsroom
+  url: https://aurizon.com.au/news
+- type: Support
+  url: https://aurizon.com.au/contact
+- type: Login
+  url: https://aurizon.com.au/portals/customers
+- type: PrivacyPolicy
+  url: https://aurizon.com.au/privacy-policy
+- type: TermsOfService
+  url: https://aurizon.com.au/terms-and-conditions-for-customer-portal
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aurizon
+- type: YouTube
+  url: https://www.youtube.com/user/aurizonchannel
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Identity checked against aurizon.com.au, whose title reads "Aurizon — Australia's largest rail freight operator". The site has no developer portal, API docs or GitHub org.
+  evidence:
+  - url: https://aurizon.com.au/
+    status: 200
+  - url: https://aurizon.com.au/news
+    status: 200
+  - url: https://aurizon.com.au/contact
+    status: 200
+  - url: https://aurizon.com.au/portals/customers
+    status: 200
+  - url: https://aurizon.com.au/privacy-policy
+    status: 200
+  - url: https://aurizon.com.au/terms-and-conditions-for-customer-portal
+    status: 200
+  - url: https://www.linkedin.com/company/aurizon
+    status: 200
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

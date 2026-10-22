@@ -1,0 +1,18 @@
+name: Aurizon MCP Server
+type: MCPServer
+generated: '2026-10-21'
+method: none
+status: none
+source:
+- https://aurizon.com.au/
+note: >-
+  No official MCP server, remote or local, was found. Aurizon publishes no developer portal,
+  OpenAPI contract or API documentation. Pre-flight discovery (2026-10-21) graded MCP, OpenAPI,
+  AsyncAPI and GraphQL absent on aurizon.com.au, portal.aurizon.com.au, media.aurizon.com.au and
+  k2workflow.aurizon.com.au. A web search for an Aurizon API or MCP server returned nothing
+  relevant. Because there are no public operations, no candidate tool list was derived.
+tools: []
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched

@@ -1,0 +1,9 @@
+generated: '2026-10-21'
+method: none
+name: Aurizon packages
+note: Checked, nothing published. npm search for "aurizon" returned 0 results; PyPI has no "aurizon" project (404); the GitHub org github.com/Aurizon (blog www.aurizon.com.au, created 2018-01-16) has 0 public repositories. Aurizon publishes no developer portal or SDKs.
+checked:
+- https://registry.npmjs.org/-/v1/search?text=aurizon&size=5
+- https://pypi.org/pypi/aurizon/json
+- https://api.github.com/users/aurizon
+packages: []

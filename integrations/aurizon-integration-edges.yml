@@ -1,0 +1,20 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/aurizon/integrations
+- https://n8n.io/integrations/aurizon/
+- https://composio.dev/toolkits/aurizon
+- https://monid.ai/tools/aurizon
+checked:
+- https://zapier.com/apps/aurizon/integrations
+- https://n8n.io/integrations/aurizon
+- https://www.make.com/en/integrations/aurizon
+- https://aurizon.com.au/
+- https://composio.dev/toolkits/aurizon
+- https://monid.ai/tools/aurizon
+- https://n8n.io/integrations/aurizon/
+summary: No integration listings or partner integration pages found. Aurizon is a rail freight operator with customer
+  web portals (FreightOnline, Customer Online) and no public API, marketplace app or integrations page.
+marketplace_apps: []
+edges: []
+templates: []

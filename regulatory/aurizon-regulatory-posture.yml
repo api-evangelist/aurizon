@@ -1,0 +1,49 @@
+generated: '2026-10-21'
+method: searched
+source:
+- https://aurizon.com.au/privacy-policy
+- https://aurizon.com.au/accessibility
+signals:
+  data_subject_request:
+    url: https://aurizon.com.au/privacy-policy
+    section: Accessing and seeking correction of personal information
+    evidence:
+    - source: https://aurizon.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: You have the right to request access to, or request we change, the personal information we hold about you.
+    - source: https://aurizon.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: We will respond to your request within a reasonable time of you making the request and give you access in the manner you requested, unless it is unreasonable or impracticable for us to do so.
+    note: Access and correction rights under the Privacy Act 1988 (Cth) and the APPs, with identity verification and no fixed response deadline. No erasure or portability right is described.
+  data_retention:
+    url: https://aurizon.com.au/privacy-policy
+    evidence:
+    - source: https://aurizon.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: If we determine that we no longer need personal information about you for the purpose we collected it, we will securely destroy or de-identify the personal information.
+    note: A purpose-bound retention principle with destruction or de-identification at end of need. No retention periods are published.
+  data_residency:
+    url: https://aurizon.com.au/privacy-policy
+    section: Overseas disclosures
+    evidence:
+    - source: https://aurizon.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: 'In certain circumstances we disclose personal information to recipients located in the following overseas countries: United States of America'
+    - source: https://aurizon.com.au/privacy-policy
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: Some of our technology and operational service providers are also located overseas. This means that when we use these provider’s services, it may involve disclosing your personal information overseas.
+    note: Data is not kept Australia-only. The United States is the only country named, and overseas service providers are mentioned without being identified, so no subprocessor list is published.
+  accessibility_conformance:
+    url: https://aurizon.com.au/accessibility
+    section: Accessibility
+    evidence:
+    - source: https://aurizon.com.au/accessibility
+      http_status: 200
+      fetched: '2026-10-21'
+      quote: Aurizon is committed to ensuring website accessibility for all visitors. We continually work to improve the online experience according to W3 Priority 1 and 2 obligations.
+    note: This is a commitment to the W3C's legacy WCAG 1.0 Priority 1 and 2 checkpoints. It is not a formal WCAG 2.x conformance claim and it gives no level or audit date.
